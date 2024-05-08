@@ -1,7 +1,7 @@
 import streamlit as st
 import io
 import pandas as pd
-import snowflake.connector as sc
+import snowflake_connector_python.connector as sc
 
 @st.cache_resource
 def sf_con():
